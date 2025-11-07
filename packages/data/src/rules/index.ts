@@ -14,6 +14,8 @@ import { convexRules } from "./convex";
 import { cosmwasmRules } from "./cosmwasm";
 import { cppRules } from "./cpp";
 import { dataAnalystRules } from "./data-analyst";
+import { dbtCoreRules } from "./dbt-core";
+import { dbtRedshiftRules } from "./dbt-redshift";
 import { deepLearningRules } from "./deep-learning";
 import { devopsRules } from "./devops-backend";
 import { djangoRules } from "./django";
@@ -94,6 +96,8 @@ export const rules: Rule[] = [
   ...cppRules,
   ...cRules,
   ...dataAnalystRules,
+  ...dbtCoreRules,
+  ...dbtRedshiftRules,
   ...deepLearningRules,
   ...devopsRules,
   ...djangoRules,
